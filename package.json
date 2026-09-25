@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-yc-rejection",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "yc-rejection MCP — wraps StupidAPIs (keyless — no credential needed)",
   "type": "module",
   "main": "src/index.ts",
@@ -24,5 +24,9 @@
   "devDependencies": {
     "typescript": "^5.9.3",
     "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-940697f544c548969b4d6ec3571f2f0b1f6dc1f53618a2447b82532ffc41b8bf",
+    "sourceCommit": "b0fb3c31386cf0256dcf1e2f1b3440435a87ec35"
   }
 }
